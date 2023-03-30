@@ -6,6 +6,7 @@ header {
 
 .row {
     background-color: rgba(30, 157, 255, 0.284);
+
 }
 
 header ul {
@@ -45,10 +46,14 @@ header ul li a:hover::after, header ul li a.is-active::after {
 }
 
 
+@media screen and (max-width: 500px) {
+    header ul li {
+        padding: 10px;
+    }
+}
 
 @media screen and (max-width: 600px){
    header ul li {
-
     font-size: 13px;
 }
 }
@@ -62,6 +67,11 @@ header ul li a:hover::after, header ul li a.is-active::after {
     header ul li {
         padding: 12px;
     }
+
+    header li {
+        display: flex;
+        align-items: center;
+        }
 }
 
 @media screen and (max-width: 760px) {

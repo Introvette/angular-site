@@ -28,7 +28,7 @@
               "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": ["../src/header/header.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
