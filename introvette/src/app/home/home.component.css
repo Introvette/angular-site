@@ -15,11 +15,13 @@
     text-shadow: 5px 5px 0px #ffffff,
                 10px 10px 0px #2c7ae7,
                 15px 15px 0px #64cef8;
+
 }
 
 .p-profile img {
-    width: 100%;
     border-radius: 50%;
+    size: 100px;
+
 }
 
 .p-tag {
@@ -27,6 +29,7 @@
     color: #fff;
     padding: 5px 10px;
     font-size: 14px;
+    margin-left: 40px;
 }
 
 .p-description {
@@ -70,6 +73,7 @@
         color: #fff;
         padding: 5px 10px;
         font-size: 14px;
+
 
     }
 
