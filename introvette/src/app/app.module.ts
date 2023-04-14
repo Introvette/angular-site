@@ -12,6 +12,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     PortfolioComponent,
     ExperienceComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,

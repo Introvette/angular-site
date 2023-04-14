@@ -6,6 +6,7 @@ import { ExperienceComponent} from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 
 
+
 const routes: Routes = [
   {
     path: '',
@@ -20,7 +21,8 @@ const routes: Routes = [
   },
   { path: 'experience',
     component: ExperienceComponent
-  }
+  },
+
 ];
 
 @NgModule({
