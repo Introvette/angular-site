@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ContactComponent } from './contact/contact.component';
     PortfolioComponent,
     ExperienceComponent,
     ContactComponent,
+    CarouselComponent,
 
   ],
   imports: [

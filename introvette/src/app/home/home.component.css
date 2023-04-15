@@ -26,7 +26,7 @@ section .wrapper {
 }
 
 
-img {
+.profile-pic {
     max-width: 320px;
     float: left;
     border-radius: 20%;
@@ -39,6 +39,10 @@ img {
     color: rgb(91, 174, 251);
     margin-top: 10px;
 }
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -83,7 +87,7 @@ img {
 
         }
 
-        img {
+        .profile-pic {
             max-width: 290px;
             border-radius: 20%;
             margin-top: 10px;

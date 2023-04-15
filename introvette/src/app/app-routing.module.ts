@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent} from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -22,6 +23,10 @@ const routes: Routes = [
   { path: 'experience',
     component: ExperienceComponent
   },
+  {
+    path: 'carousel',
+    component: CarouselComponent
+  }
 
 ];
 
