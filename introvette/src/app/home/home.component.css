@@ -63,7 +63,6 @@ img {
     max-width: 320px;
     border-radius: 20%;
     margin-top: 10px;
-    margin-right: 10px;
 
 }
 
@@ -82,19 +81,18 @@ img {
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
         section {
+            display: flex;
             align-items: center;
 
         }
 
         img {
-            max-width: 320px;
+            max-width: 290px;
             border-radius: 20%;
             margin-top: 10px;
-            margin-right: 10px;
 
         }
 
