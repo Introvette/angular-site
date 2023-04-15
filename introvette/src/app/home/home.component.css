@@ -21,11 +21,6 @@ section .wrapper {
     width: 70%;
 }
 
-.text-box h4 {
-    font-size: 20px;
-
-}
-
 .text-box p {
     font-size: 12px;
 }
