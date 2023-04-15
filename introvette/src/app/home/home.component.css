@@ -1,4 +1,6 @@
-
+/* Name font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* --------------------- */
 
 * {
     margin: 0;
@@ -12,23 +14,6 @@ section {
 
 section .wrapper {
     margin-top: -1px;
-}
-
-.layered-title {
-    font-size: 55px;
-    text-align: center;
-    height:60px;
-    line-height: 40px;
-    color: rgb(91, 174, 251);
-
-     margin-top: 20px;
-     margin-bottom: 0px;
-     text-shadow: 2px 1px 2px rgba(0, 0, 0);
-    font-weight: 800;
-    text-shadow: 5px 5px 0px #ffffff,
-                10px 10px 0px #2c7ae7,
-                15px 15px 0px #64cef8;
-
 }
 
 .wrapper {
@@ -53,24 +38,15 @@ img {
     margin-right: 15px;
 }
 
+.animate-pulse, h4 {
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    color: rgb(91, 174, 251);
+    margin-top: 10px;
+}
+
 
 @media screen and (max-width: 600px) {
-    .layered-title {
-        font-size: 50px;
-        text-align: center;
-        height:60px;
-        line-height: 40px;
-        color: rgb(91, 174, 251);
-
-         margin-top: 20px;
-         margin-bottom: 0px;
-         text-shadow: 2px 1px 2px rgba(0, 0, 0);
-        font-weight: 800;
-        text-shadow: 5px 5px 0px #ffffff,
-                    10px 10px 0px #2c7ae7,
-                    15px 15px 0px #64cef8;
-
-}
 
 * {
     margin: 0;
@@ -87,6 +63,44 @@ img {
     max-width: 320px;
     border-radius: 20%;
     margin-top: 10px;
+    margin-right: 10px;
 
 }
+
+.animate-pulse, h4 {
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    color: rgb(91, 174, 251);
 }
+}
+
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            align-items: center;
+
+        }
+
+        img {
+            max-width: 320px;
+            border-radius: 20%;
+            margin-top: 10px;
+            margin-right: 10px;
+
+        }
+
+        .animate-pulse, h4 {
+            font-size: 40px;
+            font-family: 'Righteous', cursive;
+            color: rgb(91, 174, 251);
+        }
+    }
