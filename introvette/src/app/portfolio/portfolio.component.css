@@ -13,9 +13,11 @@ body {
 
 .carousel {
     margin-left: 200px;
-
 }
 
+.row {
+    height: 415px;
+}
 
 
 .buttons {
