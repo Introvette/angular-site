@@ -1,0 +1,58 @@
+
+
+.buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between
+}
+
+img, .carousel-buttons {
+    height: 80px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    margin: auto 20px;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        position: absolute;
+        display: flex;
+    justify-content: space-between
+    }
+
+    img {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+        .buttons {
+            position: absolute;
+            display: flex;
+        justify-content: space-between
+        }
+
+        img, .carousel-buttons {
+
+        }
+        img {
+            height: 280px;
+            width: 100%;
+        }
+    }
