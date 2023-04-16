@@ -6,18 +6,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  slides: string [] = ['./assets/img/fridge.gif', './assets/img/motorgurus.gif', './assets/img/taskm.gif', './assets/img/picture-in-picture.gif' ]
+  slides: string [] = [ './assets/img/wtf.png', './assets/img/fridge.gif', './assets/img/mg.png', './assets/img/motorgurus.gif', './assets/img/task.png', './assets/img/taskm.gif' ]
   i=0;
-  length=4;
 
   getSlide() {
-      return this.slides[this.i];
+    return this.slides[this.i];
   }
 
   getPrev() {
-      this.i = this.i===0 ? 0 : this.i - 1;
+    if (this.i > this.slides.length + 2) {
+      this.i -= 2;
+    } else if (this.i > this.slides.length + 1) {
+    } else {
+      this.i = 0;
+    }
+
   }
+
   getNext() {
-      this.i = this.i===this.slides.length ? this.i : this.i + 1;
+    if (this.i < this.slides.length - 2) {
+      this.i += 2;
+    } else if (this.i < this.slides.length - 1) {
+    } else {
+      this.i = 0;
+    }
+
   }
 }

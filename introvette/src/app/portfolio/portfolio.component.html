@@ -1,13 +1,58 @@
-<div class="carousel-container">
-<div id="carouselControls" class="carousel slide" data-ride="carousel">
-
-    <div class="carousel-inner" role="listbox">
-        <img src="{{ getSlide() }}" alt="slide" >
+<!-- <div class="carousel-container">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="wrapper">
+            <div class="carousel-inner" role="listbox">
+                <img src="{{ getSlide() }}" alt="slide" >
+        <div class="flex items-center justify-around">
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" (click)='getPrev()'><<</button>
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" (click)='getNext()'>>></button>
+        </div>
     </div>
-    <div class="flex items-center justify-around">
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" (click)='getPrev()'><<</button>
+</div> -->
 
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" (click)='getNext()'>>></button>
-     </div>
-</div>
+<!-- <div class="carousel-container">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="wrapper">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{ slides[i] }}" alt="slide" >
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ slides[i+1] }}" alt="slide" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-buttons flex items-center justify-around">
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" (click)='getPrev()'><<</button>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" (click)='getNext()'>>></button>
+            </div>
+        </div>
+    </div>
+</div> -->
+<body>
+<div class="flex justify-center items-center h-screen">
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="wrapper">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="{{ slides[i] }}" alt="slide">
+                </div>
+                <div class="col-md-6">
+                  <img src="{{ slides[i+1] }}" alt="slide">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-buttons flex items-center justify-around">
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" (click)='getPrev()'><<</button>
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" (click)='getNext()'>>></button>
+          </div>
+    </div>
   </div>
+</body>
