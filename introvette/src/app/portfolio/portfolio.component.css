@@ -1,7 +1,6 @@
 body {
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+
 }
 
 *, ::before, ::after {
@@ -12,32 +11,160 @@ body {
 }
 
 .carousel {
-    margin-left: 200px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
 }
 
 .row {
-    height: 415px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 70%;
+    border: 6px solid #8eb5e9;
+
 }
 
 
 .buttons {
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .carousel-buttons {
     height: 40px;
     margin-top: 20px;
-    margin-right: 180px;
+
 }
 
 img {
     height: 400px;
-    width: 500px;
-    border-radius: 20%;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.442);
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 1px -4px 102px 0px rgba(107,107,107,0.89);
     border: black solid rgb(0, 0, 0, 0);
+    margin-top: 10px;
+}
+
+.col-md-4 {
+    width: 300px;
+}
+
+.col-md-6 {
+    width: 600px;
+    height: 300px;
+}
+
+@media screen and (min-width: 1030px) {
+    .carousel {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 70%;
+        border: 6px solid #8eb5e9;
+
+    }
+
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-buttons {
+        height: 40px;
+        margin-top: 20px;
+
+    }
+
+    img {
+        height: 300px;
+        width: 100%;
+        border-radius: 10%;
+        box-shadow: 1px -4px 102px 0px rgba(107,107,107,0.89);
+        border: black solid rgb(0, 0, 0, 0);
+        margin-top: 10px;
+    }
+
+    .col-md-4 {
+        width: 290px;
+    }
+
+    .col-md-6 {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 605px) {
+    .carousel {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        height: 700px;
+        width: 70%;
+        border: 6px solid #8eb5e9;
+        margin-top: 100px;
+    }
+
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .carousel-buttons {
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-top: -1px;
+
+    }
+
+    img {
+        height: 300px;
+        width: 100%;
+        border-radius: 10%;
+        box-shadow: 1px -4px 102px 0px rgba(107,107,107,0.89);
+        border: black solid rgb(0, 0, 0, 0);
+        margin-top: 10px;
+    }
+
+    .col-md-4 {
+        width: 290px;
+    }
+
+    .col-md-6 {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 
@@ -52,6 +179,37 @@ img {
         height: 300px;
         width: 800px;
     }
+.carousel {
+    justify-content: center;
+    width: 100vw;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 70%;
+    border: 6px solid #8eb5e9;
+
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-buttons {
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: -1px;
+}
 }
 
 
@@ -69,5 +227,37 @@ img {
         img {
             height: 280px;
             width: 100%;
+        }
+
+        .carousel {
+            justify-content: center;
+            width: 100vw;
+        }
+
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+        }
+
+        .row {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            height: 700px;
+            width: 70%;
+            border: 6px solid #8eb5e9;
+
+        }
+
+        .buttons {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+        }
+
+        .carousel-buttons {
+            height: 40px;
+            margin-bottom: 20px;
+            margin-top: -1px;
         }
     }
