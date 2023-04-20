@@ -6,30 +6,34 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  slides: string [] = [ './assets/img/wtf.png', './assets/img/fridge.gif', './assets/img/mg.png', './assets/img/motorgurus.gif', './assets/img/task.png', './assets/img/taskm.gif' ]
-  i=0;
-
-  getSlide() {
-    return this.slides[this.i];
-  }
-
-  getPrev() {
-    if (this.i > this.slides.length + 2) {
-      this.i -= 2;
-    } else if (this.i > this.slides.length + 1) {
-    } else {
-      this.i = 0;
+  slides = [
+    {
+      imageUrl: 'assets/img/fridge.gif',
+      title: 'What the Fridge?',
+      description: 'This is slide 1'
+    },
+    {
+      imageUrl: 'assets/img/motorgurus.gif',
+      title: 'MotorGurus',
+      description: 'This is slide 2'
     }
+  ];
 
+  currentIndex = 0;
+
+  nextSlide() {
+    console.log('Next slide clicked');
+    console.log('Current index before update:', this.currentIndex);
+    this.currentIndex = (this.currentIndex + 1) % this.slides.length;
+    console.log('Current index after update:', this.currentIndex);
   }
 
-  getNext() {
-    if (this.i < this.slides.length - 2) {
-      this.i += 2;
-    } else if (this.i < this.slides.length - 1) {
-    } else {
-      this.i = 0;
-    }
 
+  prevSlide() {
+    console.log('Prev slide clicked');
+    console.log('Current index before update:', this.currentIndex);
+    this.currentIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+    console.log('Current index after update:', this.currentIndex);
   }
+
 }
