@@ -1,0 +1,139 @@
+/* .timeline-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .timeline-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .timeline-item {
+    position: relative;
+    width: 45%;
+    margin: 0 5%;
+  }
+
+  .timeline-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .timeline-date {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #33a3ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-date {
+    left: 0;
+    right: auto;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-content {
+    text-align: right;
+  }
+
+  .timeline-item:nth-child(even) .timeline-content {
+    text-align: left;
+  }
+
+  .timeline-item:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    height: 15px;
+    width: 15px;
+  } */
+
+  /* animation styles */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* animation to each timeline item */
+  .timeline-item {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--item-index) * 200ms);
+  }
+
+/*  */
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+  }
+
+  .timeline-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  .timeline-content {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .timeline-date {
+    margin: 10px;
+  }
+
+  .timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    /* border-left: 2px solid black; */
+  }
+
+  .timeline-box p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+
+  .timeline-box:hover p {
+    max-height: 200px; /* or any value you want */
+  }
