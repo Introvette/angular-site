@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatSelectModule} from '@angular/material/select';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,9 +14,6 @@ import { ExperienceComponent } from './experience/experience.component';
 import { CardComponent } from './card/card.component';
 import { ContactComponent } from './contact/contact.component';
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,14 +23,13 @@ import { ContactComponent } from './contact/contact.component';
     CardComponent,
     PortfolioComponent,
     ContactComponent,
-
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSelectModule
+    MatSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

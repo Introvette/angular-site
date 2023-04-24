@@ -19,13 +19,19 @@ export class ContactComponent {
   public sendEmail(e: Event) {
     e.preventDefault();
 
-    emailjs.sendForm('service_bs96q2p', 'template_ayln9kw', e.target as HTMLFormElement, 'YOUR_USER_ID_FROM_EMAILJS')
-      .then((result: EmailJSResponseStatus) => {
+    const emailParams = {
+      to_name: 'Yvette Rosario',
+      from_name: this.name,
+      from_email: this.email,
+      message: this.message
+    };
+
+    emailjs.send('service_bs96q2p', 'template_ayln9kw', emailParams, 'XnqHnxSJzUBEOUi_z')
+      .then((result) => {
         console.log(result.text);
-        // TODO: show success message to the user
+        console.log(emailParams);
       }, (error) => {
         console.log(error.text);
-        // TODO: show error message to the user
       });
   }
 
