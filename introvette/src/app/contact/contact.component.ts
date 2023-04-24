@@ -11,6 +11,7 @@ export class ContactComponent {
   public name: string = '';
   public email: string = '';
   public message: any = '';
+  public showSuccessMessage: boolean = false;
 
   constructor() {
     emailjs.init('XnqHnxSJzUBEOUi_z');
@@ -30,6 +31,10 @@ export class ContactComponent {
       .then((result) => {
         console.log(result.text);
         console.log(emailParams);
+        this.showSuccessMessage = true;
+        this.name = '';
+        this.email = '';
+        this.message = '';
       }, (error) => {
         console.log(error.text);
       });

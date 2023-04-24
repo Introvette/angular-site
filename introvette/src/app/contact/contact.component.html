@@ -3,7 +3,7 @@
     <h2 class="text-2xl font-bold mb-4">Shoot Me a Msg!</h2>
     <p class="mb-4">If you'd like to say hello, or share any opportunities / have any questions, please feel free to leave a message!</p>
     <p class="mb-4">You can also reach out to me directly: <a href="mailto:yvetterosario.swe@gmail.com">yvetterosario.swe@gmail.com</a></p>
-    <p class="mb-4"></p>
+    <p class="sucess mb-4" *ngIf="showSuccessMessage">Thanks for reaching out!</p>
   </div>
   <div class="w-1/2 p-10">
     <form (submit)="sendEmail($event)" class="bg-gray-100 rounded-lg p-6">
