@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 
 
 
+
 const routes: Routes = [
   {
     path: '',
@@ -17,13 +18,12 @@ const routes: Routes = [
     path: 'portfolio',
     component: PortfolioComponent
   },
-  { path: 'contact',
-    component: ContactComponent
-  },
   { path: 'experience',
     component: ExperienceComponent
+  },
+  { path: 'contact',
+    component: ContactComponent
   }
-
 ];
 
 @NgModule({

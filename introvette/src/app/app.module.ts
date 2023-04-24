@@ -10,8 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { ContactComponent } from './contact/contact.component';
 import { CardComponent } from './card/card.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -22,9 +22,9 @@ import { CardComponent } from './card/card.component';
     HeaderComponent,
     HomeComponent,
     ExperienceComponent,
-    ContactComponent,
     CardComponent,
     PortfolioComponent,
+    ContactComponent,
 
 
   ],

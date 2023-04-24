@@ -1,1 +1,26 @@
-<p>contact works!</p>
+
+  <div class="flex flex-row items-center justify-center">
+    <div class="w-1/2 p-10">
+      <h2 class="text-2xl font-bold mb-4">Shoot Me a Msg!</h2>
+      <p class="mb-4">If you have any questions to ask, or opportunities you'd like to share with me, or just want to say hello please feel free to reach out to me!</p>
+      <p class="mb-4">Email: <a href="mailto:yvetterosario.swe@gmail.com">yvetterosario.swe@gmail.com</a></p>
+      <p class="mb-4"></p>
+    </div>
+    <div class="w-1/2 p-10">
+      <form (submit)="sendEmail($event)" class="bg-gray-100 rounded-lg p-6">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" id="name"  name="name" required class="w-full rounded-lg border-gray-300 p-2">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" id="email"  name="email" required class="w-full rounded-lg border-gray-300 p-2">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea id="message" name="message" required class="w-full rounded-lg border-gray-300 p-2"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
