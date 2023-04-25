@@ -1,11 +1,11 @@
-<div class="flex flex-row items-center justify-center">
-  <div class="w-1/2 p-10">
+<!-- <div class="flex flex-row items-center justify-center mx-24">
+  <div class="w-1/2 p-6">
     <h2 class="text-2xl font-bold mb-4">Shoot Me a Msg!</h2>
     <p class="mb-4">If you'd like to say hello, or share any opportunities / have any questions, please feel free to leave a message!</p>
     <p class="mb-4">You can also reach out to me directly: <a href="mailto:yvetterosario.swe@gmail.com">yvetterosario.swe@gmail.com</a></p>
     <p class="sucess mb-4" *ngIf="showSuccessMessage">Thanks for reaching out!</p>
   </div>
-  <div class="w-1/2 p-10">
+  <div class="w-1/2 p-6">
     <form (submit)="sendEmail($event)" class="bg-gray-100 rounded-lg p-6">
       <div class="mb-4">
         <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
@@ -21,5 +21,33 @@
       </div>
       <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">Send Message</button>
     </form>
+  </div>
+</div> -->
+
+<div class="mx-auto max-w-7xl px-8 py-6 sm:px-6 lg:px-8">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-center mx-auto max-w-6xl px-8 py-6 sm:px-6 lg:px-8" style="min-width: calc(100vw - 4in);">
+    <div class="w-full sm:w-1/2 p-6">
+      <h2 class="text-2xl font-bold mb-4">Shoot Me a Msg!</h2>
+      <p class="mb-4">If you'd like to say hello, or share any opportunities / have any questions, please feel free to leave a message!</p>
+      <p class="mb-4">You can also reach out to me directly: <a href="mailto:yvetterosario.swe@gmail.com">yvetterosario.swe@gmail.com</a></p>
+      <p class="success mb-4" *ngIf="showSuccessMessage">Thanks for reaching out!</p>
+    </div>
+    <div class="w-full sm:w-1/2 p-6">
+      <form (submit)="sendEmail($event)" class="bg-gray-100 rounded-lg p-6">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" id="name" [(ngModel)]="name" name="name" required class="w-full rounded-lg border-gray-300 p-2">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" id="email" [(ngModel)]="email" name="email" required class="w-full rounded-lg border-gray-300 p-2">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea id="message" [(ngModel)]="message" name="message" required class="w-full rounded-lg border-gray-300 p-2"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">Send Message</button>
+      </form>
+    </div>
   </div>
 </div>

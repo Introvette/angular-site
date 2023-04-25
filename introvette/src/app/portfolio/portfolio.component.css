@@ -1,7 +1,7 @@
 
   body {
     margin: 0;
-    padding: 5px;
+    padding: 25px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -12,9 +12,18 @@
     position: relative;
     width: 900px;
     overflow: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-wrap: break-word;
-    background-color: #eee;
+    background-color: #ffffff;
+  }
+  .carousel-container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .carousel-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
   }
 
   .carousel-slide {
@@ -78,3 +87,88 @@
   .carousel-controls button {
     margin: 3px 10px;
   }
+
+
+
+  @media only screen
+  and (device-width: 428px)
+  and (device-height: 926px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  background-color: #eee;
+}
+
+.carousel-slide {
+  display: flex;
+  height: 380px;
+  width: calc(100% * 5);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+  width: calc(100% / 5);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  height: 100%;
+  overflow-y: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.card-content img {
+  width: 90%;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 200px;
+}
+
+.card-content h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #33a3ff74;
+  margin-top: 30px;
+}
+
+.carousel-controls button {
+  margin: 3px 10px;
+  height: 800px;
+  width: 800px;
+}
+}

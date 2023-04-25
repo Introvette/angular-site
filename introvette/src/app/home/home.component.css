@@ -3,35 +3,42 @@
 /* --------------------- */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
-    align-items: center;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-section .wrapper {
-    margin-top: -1px;
+img {
+  max-width: 320px;
+  float: left;
+  margin-right: 15px;
 }
 
 .wrapper {
-    margin: 150px auto;
-    width: 70%;
+  margin: 150px auto;
+  width: 70%;
+}
+
+.text-box {
+  color: black;
+}
+
+.text-box h2 {
+  font-size: 42px;
 }
 
 .text-box p {
-    font-size: 12px;
+  font-size: 16px;
 }
 
-
-.profile-pic {
-    max-width: 320px;
-    float: left;
-    border-radius: 20%;
-    margin-right: 15px;
-}
+  /* -------------------------- */
 
 .animate-pulse, h4 {
     font-size: 60px;
@@ -39,64 +46,3 @@ section .wrapper {
     color: rgb(91, 174, 251);
     margin-top: 10px;
 }
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-section {
-    align-items: center;
-
-}
-
-img {
-    max-width: 320px;
-    border-radius: 20%;
-    margin-top: 10px;
-
-}
-
-.animate-pulse, h4 {
-    font-size: 40px;
-    font-family: 'Righteous', cursive;
-    color: rgb(91, 174, 251);
-}
-}
-
-
-@media only screen
-    and (device-width: 390px)
-    and (device-height: 844px)
-    and (-webkit-device-pixel-ratio: 3) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        section {
-            align-items: center;
-
-        }
-
-        .profile-pic {
-            max-width: 290px;
-            border-radius: 20%;
-            margin-top: 10px;
-
-        }
-
-        .animate-pulse, h4 {
-            font-size: 40px;
-            font-family: 'Righteous', cursive;
-            color: rgb(91, 174, 251);
-        }
-    }
