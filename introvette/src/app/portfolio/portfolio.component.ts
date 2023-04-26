@@ -10,12 +10,17 @@ export class PortfolioComponent {
     {
       imageUrl: 'assets/img/fridge.gif',
       title: 'What the Fridge?',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      description: 'What the Fridge app allows users to input their fridge and pantry inventory, then outputs a list of recipes that match the checked ingredients the user desires to use.'
     },
     {
       imageUrl: 'assets/img/motorgurus.gif',
       title: 'MotorGurus',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      description: 'MotorGurus is a platform that monitors automobile sales and manufacturer inventory by tracking various models, as well as schedules service appointments with technicians.'
+    },
+    {
+      imageUrl: 'assets/img/taskm.gif',
+      title: 'TaskManagr',
+      description: 'TaskManagr is an aesthetically pleasing project planner. TaskManager allows users to organize their tasks and assign specific tasks to other team members all in one.'
     }
   ];
 

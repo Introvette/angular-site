@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 2in;
 }
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 .timeline-box {
@@ -48,7 +48,9 @@
   justify-content: center;
   align-items: center;
   margin: 10px;
-  border: 1px solid black;
+  border: 5px solid #723D46;
+  border-radius: 20px;
+  box-shadow: 5px 8px rgba(0, 0, 0, 0.493)
 }
 
 .timeline-content {
@@ -76,4 +78,48 @@
 
 .timeline-box:hover p {
   max-height: 200px;
+}
+
+.dub-container {
+  margin-left: 110px;
+  width: 190px;
+}
+
+.bg-200 {
+  background: #C9CBA3;
+}
+
+.download-button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #723D46;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+.download-button:hover {
+  filter: brightness(160%);
+}
+
+.download-button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65)
+}
+
+@media only screen and (max-device-width: 428px) {
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-wrapper {
+    order: 2;
+  }
+
+  .bg-gray-200 {
+    order: 1;
+  }
 }

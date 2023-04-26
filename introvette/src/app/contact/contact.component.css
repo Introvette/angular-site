@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+
+h2 {
+    font-family: 'Vina Sans', cursive;
+    font-size: 45px;
+    color: #723D46;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.493);
+    text-align: center;
+}
+
+.left-half {
+    background: #c9cba34e;
+    padding: 15px 15px;
+    border-radius: 20px;
+
+}
+
+.bg-100 {
+    background-color: #C9CBA3;
+}
+
+.bg-500 {
+    background-color: #E26D5C;
+}
+
+.success-stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hearts {
+    height: 250px;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: #484848;
+    font-weight: 200px;
+}
+
+.email-to:hover {
+    color: #E26D5C;
+}

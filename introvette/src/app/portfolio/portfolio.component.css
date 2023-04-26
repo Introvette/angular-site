@@ -1,7 +1,7 @@
 
   body {
     margin: 0;
-    padding: 25px;
+    padding: 40px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -11,24 +11,17 @@
   .carousel-container {
     position: relative;
     width: 900px;
+    height: 400px;
     overflow: hidden;
-    overflow-y: scroll;
     overflow-wrap: break-word;
-    background-color: #ffffff;
-  }
-  .carousel-container::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    background-color: #C9CBA3;
+    border-radius: 20px;
   }
 
-  .carousel-container::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 10px;
-  }
 
   .carousel-slide {
     display: flex;
-    height: 380px;
+    height: 400px;
     width: calc(100% * 5);
     transition: transform 0.5s ease-in-out;
 
@@ -51,9 +44,20 @@
     align-items: center;
     max-width: 90%;
     height: 100%;
-    overflow-y: auto;
+    overflow-y: scroll;
     text-align: center;
     padding: 0 10px;
+  }
+
+  .card-content::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .card-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #C9CBA3;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
   }
 
   .card-content img {
@@ -80,15 +84,50 @@
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #33a3ff74;
-    margin-top: 30px;
+    background-color: #e26e5caf;
   }
 
   .carousel-controls button {
     margin: 3px 10px;
   }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
 
+ .dub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+  .cv-image {
+    margin-top: 1em;
+    height: 200px;
+  }
 
+  .download-button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #723D46;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  }
+
+  .download-button:hover {
+    filter: brightness(160%);
+  }
+
+  .download-button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65)
+}
 
   @media only screen
   and (device-width: 428px)

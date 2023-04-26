@@ -5,7 +5,7 @@ header {
 }
 
 .row {
-    background-color: rgba(30, 157, 255, 0.284);
+    background-color:#c9cba3a3;
 }
 
 header ul {
@@ -35,7 +35,7 @@ header ul li a {
 
 header ul li a:hover::after, header ul li a.is-active::after {
     content: '';
-    background: rgb(91, 174, 251);
+    background: #723d46;
     height: 9px;
     position: absolute;
     left: 1px;
