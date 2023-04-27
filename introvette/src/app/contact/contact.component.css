@@ -45,3 +45,13 @@ p {
 .email-to:hover {
     color: #E26D5C;
 }
+
+@media only screen and (max-device-width: 600px) {
+    .left-half {
+        background: #c9cba34e;
+        padding: 15px 15px;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+}

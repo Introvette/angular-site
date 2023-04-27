@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 900px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 0 2in;
 }
@@ -71,7 +71,7 @@
 
 .timeline-box p {
   max-height: 0;
-  width: 500px;
+  width: 450px;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
@@ -81,8 +81,8 @@
 }
 
 .dub-container {
-  margin-left: 110px;
-  width: 190px;
+  display: flex;
+  justify-content: center;
 }
 
 .bg-200 {
@@ -110,7 +110,7 @@
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65)
 }
 
-@media only screen and (max-device-width: 428px) {
+@media only screen and (max-device-width: 600px) {
   .grid-cols-1 {
     grid-template-columns: 1fr;
   }
