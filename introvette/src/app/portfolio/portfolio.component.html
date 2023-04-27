@@ -17,11 +17,8 @@
         <button (click)="nextSlide()">Next</button>
       </div>
     </div>
-    <div class="w-full md:w-1/2">
+    <div class="w-full md:w-full"> <!-- Updated class: w-full md:w-1/2 -->
       <div class="flex flex-col items-center justify-center">
-        <div class="button-container">
-          <a href="path/to/cv.pdf" download class="download-button">Download CV</a>
-        </div>
         <h1 class="tech-kn text-center mt-4">Tech-knowledge-y</h1>
         <div class="grid grid-cols-4 md:grid-cols-4 gap-8 mt-4">
           <div class="flex flex-col items-center justify-center">
@@ -73,7 +70,61 @@
               <span class="mt-2 font-medium  ">Wordpress</span>
             </div>
         </div>
+        <div class="button-container mt-4"> <!-- Added a margin-top -->
+          <a href="path/to/cv.pdf" download class="download-button">Download CV</a> <!-- Changed button to an anchor tag (a) for a download link -->
+        </div>
       </div>
     </div>
   </div>
 </body>
+
+
+
+<!-- <div class="flex flex-col items-center justify-center">
+  <img src="assets/img/python.png" alt="Logo 1" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">Python</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/javascript.png" alt="Logo 2" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">JavaScript</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/typescript.png" alt="Logo 3" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">TypeScript</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/django.png" alt="Logo 4" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">Django</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/fastapi.png" alt="Logo 5" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">FastAPI</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/postgres.png" alt="Logo 9" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">Postgres</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/react.png" alt="Logo 6" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">React</span>
+</div>
+<div class="flex flex-col items-center justify-center">
+  <img src="assets/img/angular.png" alt="Logo 7" class="h-12 w-12 object-contain">
+  <span class="mt-2 font-medium">Angular</span>
+</div>
+  <div class="flex flex-col items-center justify-center">
+    <img src="assets/img/html.png" alt="Logo 8" class="h-12 w-12 object-contain">
+    <span class="mt-2 font-medium">HTML</span>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <img src="assets/img/css.png" alt="Logo 9" class="h-12 w-12 object-contain">
+    <span class="mt-2 font-medium  ">CSS</span>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <img src="assets/img/docker.png" alt="Logo 9" class="h-12 w-12 object-contain">
+    <span class="mt-2 font-medium ">Docker</span>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <img src="assets/img/wordpress.png" alt="Logo 9" class="h-12 w-12 object-contain">
+    <span class="mt-2 font-medium  ">Wordpress</span>
+  </div> -->

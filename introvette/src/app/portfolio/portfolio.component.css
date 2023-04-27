@@ -22,9 +22,18 @@
 
   .tech-kn {
     font-family: 'Vina Sans', cursive;
-    font-size: 40px;
-    color: #E26D5C;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 0 10px #C9CBA3,
+                 0 0 20px #723D46,
+                 0 0 30px #723D46,
+                 0 0 40px #e26e5caf,
+                 0 0 70px #e26e5caf,
+                 0 0 80px #e26e5caf,
+                 0 0 100px #e26e5caf,
+                 0 0 150px #e26e5caf;
   }
+
 
   .carousel-slide {
     display: flex;
@@ -97,12 +106,12 @@
   .carousel-controls button {
     margin: 3px 10px;
   }
-  .button-container {
+  /* .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
-  }
+  } */
 
   .download-button {
     cursor: pointer;
