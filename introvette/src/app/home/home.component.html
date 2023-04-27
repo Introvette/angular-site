@@ -1,8 +1,8 @@
 <section class="flex flex-col items-center">
+  <div class="typewriter-container">
+    <h2 class="typewriter text-3xl font-bold mb-2" [@typewriterAnimation]="textArray[currentTextIndex]">{{ displayText }}</h2>
+  </div>
   <div class="wrapper">
-    <div class="typewriter-container">
-      <h2 class="typewriter text-3xl font-bold mb-2" [@typewriterAnimation]="textArray[currentTextIndex]">{{ displayText }}</h2>
-    </div>
     <div class="pic">
       <img class="profile-pic md:mr-4" src="assets/img/me.png">
     </div>
