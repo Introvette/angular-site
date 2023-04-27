@@ -11,13 +11,15 @@ h2 {
 
 .left-half {
     background: #c9cba34e;
-    padding: 15px 15px;
+    padding: 6px 6px;
     border-radius: 20px;
+    width: 100%;
 
 }
 
 .bg-100 {
     background-color: #C9CBA3;
+    width: 100%
 }
 
 .bg-500 {
