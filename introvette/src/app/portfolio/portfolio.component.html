@@ -1,6 +1,10 @@
 <body class="container flex mx-auto px-4">
+
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="carousel-container w-full md:w-1/2">
+      <h1 class="proj text-center">
+        Projects
+      </h1>
       <div class="carousel-slide" [style.transform]="'translateX(-' + currentIndex * 20 + '%)'">
         <div *ngFor="let slide of slides" class="carousel-card">
           <div class="card-content">

@@ -1,8 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 
 header {
     padding: 20px 20px 20px 20px;
 }
+
+
 
 .menu {
   display: flex;
@@ -12,6 +14,10 @@ header {
 
 .menu-link {
   display: block;
+}
+
+a {
+  font-family: 'Chivo Mono', monospace;
 }
 
 .container {

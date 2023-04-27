@@ -27,11 +27,22 @@
     text-shadow: 0 0 10px #C9CBA3,
                  0 0 20px #723D46,
                  0 0 30px #723D46,
-                 0 0 40px #e26e5caf,
-                 0 0 70px #e26e5caf,
-                 0 0 80px #e26e5caf,
-                 0 0 100px #e26e5caf,
-                 0 0 150px #e26e5caf;
+                 0 0 40px #ff8f7eff,
+                 0 0 100px #ff8f7eff,
+                 0 0 150px #ff8f7eff;
+  }
+
+  .proj {
+    font-family: 'Vina Sans', cursive;
+      font-size: 45px;
+      margin-top: 30px;
+      color: #fff;
+      text-shadow: 0 0 10px #C9CBA3,
+                   0 0 20px #723D46,
+                   0 0 30px #723D46,
+                   0 0 40px #ff8f7eff,
+                   0 0 100px #ff8f7eff,
+                   0 0 150px #ff8f7eff;
   }
 
 
@@ -72,7 +83,7 @@
 
   .card-content::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #C9CBA3;
+    background-color: #e26e5caf;;
     box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
   }
 
@@ -100,7 +111,8 @@
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #e26e5caf;
+    background-color: #723D46;
+    color: white;
   }
 
   .carousel-controls button {
