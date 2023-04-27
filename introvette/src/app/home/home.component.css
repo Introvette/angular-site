@@ -16,17 +16,24 @@ section {
   align-items: center;
 }
 
+.pic {
+  height: 20px;
+}
+
 .pic img {
   max-width: 320px;
   float: left;
   margin-right: 15px;
   border-radius: 20px;
-  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.493);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
 }
 
 .wrapper {
+  margin-top: auto;
   width: 70%;
   overflow: auto;
+  background-color:
+
 }
 
 .text-box {
@@ -38,7 +45,7 @@ section {
   font-family: 'Vina Sans', cursive;
   color: #723D46;
   text-align: center;
-  text-shadow: 2px 4px rgba(0, 0, 0, 0.493);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
 }
 
 .text-box p {
@@ -48,13 +55,6 @@ section {
 }
 
   /* -------------------------- */
-
-.animate-pulse, h4 {
-    font-size: 60px;
-    font-family: 'Righteous', cursive;
-    color: rgb(91, 174, 251);
-    margin-top: 10px;
-}
 
 .logo-container {
   display: flex;
@@ -74,6 +74,8 @@ section {
 }
 
 
+
+
 /* -------------------------------- */
 
 /* iPhone 13 Pro */
@@ -85,10 +87,14 @@ section {
   .wrapper {
     margin: 50px auto;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .text-box h2 {
-    font-size: 28px;
+    font-size: 32px;
+    margin-top: 8px;
   }
 
   .text-box p {

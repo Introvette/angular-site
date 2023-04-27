@@ -15,6 +15,7 @@ import { CardComponent } from './card/card.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     CardComponent,
     PortfolioComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

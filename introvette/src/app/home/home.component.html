@@ -1,18 +1,19 @@
-
 <section class="flex flex-col items-center">
-  <h2 class="typewriter text-3xl font-bold mb-4" [@typewriterAnimation]="textArray[currentTextIndex]">{{ displayText }}</h2>
   <div class="wrapper">
-      <div class="pic">
-      <img class="profile-pic" src="assets/img/me.png">
+    <div class="typewriter-container">
+      <h2 class="typewriter text-3xl font-bold mb-2" [@typewriterAnimation]="textArray[currentTextIndex]">{{ displayText }}</h2>
     </div>
-      <div class="text-box">
-        <h2>Yvette Rosario</h2>
-        <p>Hello there! My name is Yvette :] I'm originally from Pohnpei, Micronesia and now based in Charlotte, North Carolina. I have recently transitioned from working as a restaurant manager to pursuing a career in software engineering, leveraging skills that are essential in the tech sector. My aim is to create apps that have a positive impact on users and provide cutting-edge management solutions. After completing a rigorous 19-week bootcamp at Hack Reactor, I am ready to embark on my journey as a web developer and add value to any team.</p>
-      </div>
-      <div class="logo-container">
-        <a href="https://www.linkedin.com/in/vetterosario/" target="_blank"><img class="thumbnail" src="assets/img/linkedin.png"></a>
-        <a href="https://github.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/github.png"></a>
-        <a href="https://gitlab.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/gitlab.png"></a>
-      </div>
+    <div class="pic">
+      <img class="profile-pic md:mr-4" src="assets/img/me.png">
     </div>
+    <div class="text-box">
+      <h2>Yvette Rosario</h2>
+      <p>Hello there! My name is Yvette :] I'm originally from Pohnpei, Micronesia and now based in Charlotte, North Carolina. I have recently transitioned from working as a restaurant manager to pursuing a career in software engineering, leveraging skills that are essential in the tech sector. My aim is to create apps that have a positive impact on users and provide cutting-edge management solutions. After completing a rigorous 19-week bootcamp at Hack Reactor, I am ready to embark on my journey as a web developer and add value to any team.</p>
+    </div>
+    <div class="logo-container">
+      <a href="https://www.linkedin.com/in/vetterosario/" target="_blank"><img class="thumbnail" src="assets/img/linkedin.png"></a>
+      <a href="https://github.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/github.png"></a>
+      <a href="https://gitlab.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/gitlab.png"></a>
+    </div>
+  </div>
 </section>
