@@ -15,7 +15,7 @@ export class ExperienceComponent {
   timeline: TimelineEvent[] = [
     {
       date: 'May 2014 - Aug 2014',
-      title: 'Environmental Services Intern',
+      title: 'Facilities Management Intern',
       description: '@ Atrium Health in Charlotte, NC - Compiled regular reports for upper management to ensure accuracy of data. - Streamlined administrative process for environmental services department, reducing paperwork and increasing organization. - Gained invaluable insight into executive decisions by shadowing key leaders in the field.'
     },
     {

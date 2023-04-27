@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* --------------------- */
 
 * {
@@ -13,7 +14,6 @@
 section {
   display: flex;
   align-items: center;
-  min-height: 100vh;
 }
 
 .pic img {
@@ -25,8 +25,8 @@ section {
 }
 
 .wrapper {
-  margin: 150px auto;
   width: 70%;
+  overflow: auto;
 }
 
 .text-box {
@@ -67,6 +67,10 @@ section {
   height: 50px;
   width: 50px;
   margin: 0 10px;
+}
+
+.typewriter {
+  font-family: 'Roboto Mono', monospace;
 }
 
 
