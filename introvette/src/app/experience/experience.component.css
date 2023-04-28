@@ -76,9 +76,10 @@
   transition: max-height 0.5s ease-out;
 }
 
-.timeline-box:hover p {
-  max-height: 200px;
+.clickme img {
+  height: 80px;
 }
+
 
 .dub-container {
   display: flex;
