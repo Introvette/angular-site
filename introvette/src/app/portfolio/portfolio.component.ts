@@ -27,6 +27,13 @@ export class PortfolioComponent {
       description: 'TaskManagr is an aesthetically pleasing project planner. TaskManager allows users to organize their tasks and assign specific tasks to other team members all in one.',
       tech_used: 'Python, Django, HTML, CSS',
       repository: 'https://github.com/Introvette/Task-Managr/'
+    },
+    {
+      imageUrl: 'assets/img/pic-in-pig.gif',
+      title: 'Picture in Picture',
+      description: 'Picture-in-picture enables users to maintain a constant visual of a browser window while navigating to other tabs or windows.',
+      tech_used: 'JavaScript, HTML, CSS',
+      repository: 'https://github.com/Introvette/Picture-in-Picture'
     }
   ];
 
