@@ -26,7 +26,7 @@
     color: #fff;
     text-shadow: 0 0 10px #C9CBA3,
                  0 0 20px #723D46,
-                 0 0 30px #723D46,
+                 0 0 30px #ff8f7eff,
                  0 0 40px #ff8f7eff,
                  0 0 100px #ff8f7eff,
                  0 0 150px #ff8f7eff;
@@ -38,8 +38,8 @@
       margin-top: 30px;
       color: #fff;
       text-shadow: 0 0 10px #C9CBA3,
-                   0 0 20px #723D46,
-                   0 0 30px #723D46,
+                   0 0 20px #ff8f7eff,
+                   0 0 30px #ff8f7eff,
                    0 0 40px #ff8f7eff,
                    0 0 100px #ff8f7eff,
                    0 0 150px #ff8f7eff;

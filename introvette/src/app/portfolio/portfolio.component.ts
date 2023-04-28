@@ -10,17 +10,23 @@ export class PortfolioComponent {
     {
       imageUrl: 'assets/img/fridge.gif',
       title: 'What the Fridge?',
-      description: 'What the Fridge app allows users to input their fridge and pantry inventory, then outputs a list of recipes that match the checked ingredients the user desires to use.'
+      description: 'What the Fridge app allows users to input their fridge and pantry inventory, then outputs a list of recipes that match the checked ingredients the user desires to use.',
+      tech_used: 'Python, FastAPI, Postgres, Docker, React, JavaScript, Redux Toolkit, HTML, CSS',
+      repository: 'https://gitlab.com/demogorgons11/whats-in-the-fridge'
     },
     {
       imageUrl: 'assets/img/motorgurus.gif',
       title: 'MotorGurus',
-      description: 'MotorGurus is a platform that monitors automobile sales and manufacturer inventory by tracking various models, as well as schedules service appointments with technicians.'
+      description: 'MotorGurus is a platform that monitors automobile sales and manufacturer inventory by tracking various models, as well as schedules service appointments with technicians.',
+      tech_used: 'Python, Django, Postgres, Docker, React, JavaScript, JSX, CSS',
+      repository: 'https://gitlab.com/introvette/motor-gurus/-/tree/styling'
     },
     {
       imageUrl: 'assets/img/taskm.gif',
       title: 'TaskManagr',
-      description: 'TaskManagr is an aesthetically pleasing project planner. TaskManager allows users to organize their tasks and assign specific tasks to other team members all in one.'
+      description: 'TaskManagr is an aesthetically pleasing project planner. TaskManager allows users to organize their tasks and assign specific tasks to other team members all in one.',
+      tech_used: 'Python, Django, HTML, CSS',
+      repository: 'https://github.com/Introvette/Task-Managr/'
     }
   ];
 
