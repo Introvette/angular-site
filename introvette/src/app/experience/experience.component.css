@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Noto+Serif&display=swap');
+
 /* animation styles */
 @keyframes fadeIn {
   from {
@@ -40,6 +43,7 @@
   align-items: center;
   position: relative;
   margin: 10px;
+
 }
 
 .timeline-box {
@@ -55,11 +59,19 @@
 
 .timeline-content {
   text-align: center;
-  margin: 10px;
+  margin: 10px
+}
+
+.tl-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+
 }
 
 .timeline-date {
   margin: 10px;
+  font-family: 'Noto Serif', serif;
+  font-size: 14px;
 }
 
 .timeline-line {
@@ -69,11 +81,14 @@
   left: 50%;
 }
 
+
 .timeline-box p {
   max-height: 0;
   width: 100%;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
 }
 
 .clickme img {
@@ -101,6 +116,9 @@
   outline: none;
   padding: 0.5rem 1.8rem;
   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  font-family: 'Noto Serif', serif;
+  font-size: 14px;
+  margin-bottom: 30px;
 }
 .download-button:hover {
   filter: brightness(160%);

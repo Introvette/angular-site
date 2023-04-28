@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
   body {
     margin: 0;
@@ -64,6 +64,10 @@
 
   }
 
+  .card-content h3 {
+    font-family: 'Roboto Mono', monospace;
+  }
+
   .card-content {
     display: flex;
     flex-direction: column;
@@ -74,6 +78,7 @@
     overflow-y: scroll;
     text-align: center;
     padding: 0 10px;
+    font-family: 'Roboto Mono', monospace;
   }
 
   .card-content::-webkit-scrollbar {
@@ -118,12 +123,6 @@
   .carousel-controls button {
     margin: 3px 10px;
   }
-  /* .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-  } */
 
   .download-button {
     cursor: pointer;
@@ -136,6 +135,7 @@
     outline: none;
     padding: 0.5rem 1.8rem;
     box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+    font-family: 'Roboto Mono', monospace;
   }
 
   .download-button:hover {
