@@ -19,7 +19,6 @@ export class ImageSliderComponent {
     {
       url: 'assets/img/pic1.JPG',
       caption: "My fiance and I love hitting the trails, here's us on top of the Gros Piton in St. Lucia!"
-
     },
     {
       url: 'assets/img/pic2.JPG',
