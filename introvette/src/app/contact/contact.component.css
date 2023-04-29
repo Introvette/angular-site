@@ -14,12 +14,13 @@ h2 {
     padding: 6px 6px;
     border-radius: 20px;
     width: 100%;
-
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
 }
 
 .bg-100 {
     background-color: #C9CBA3;
-    width: 100%
+    width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
 }
 
 .bg-500 {

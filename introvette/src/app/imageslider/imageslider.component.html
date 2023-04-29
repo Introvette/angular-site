@@ -1,0 +1,15 @@
+<div class="carousel">
+  <div class="thumbnails">
+    <div *ngFor="let image of images" (click)="expandImage(image)" class="thumbnail">
+      <img [src]="image.url" alt="Thumbnail" class="thumbnail-img">
+    </div>
+  </div>
+</div>
+
+<div *ngIf="expandedImage" class="overlay">
+  <div class="expanded-image">
+    <img [src]="expandedImage.url" alt="Expanded Image" class="expanded-img">
+    <div class="caption">{{ expandedImage.caption }}</div>
+    <button (click)="closeExpandedImage()" class="close-btn">Close</button>
+  </div>
+</div>

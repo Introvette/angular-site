@@ -36,8 +36,26 @@ section {
   margin-top: auto;
   width: 70%;
   overflow: auto;
-  background-color:
+  background-color: #c9cba34e;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
+  padding: 10px;
+  border-radius: 20px;
+}
 
+.fun-stuff {
+  background-color: #c9cba34e;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
+}
+
+.fun-title h2 {
+  margin-top: 20px;
+  font-family: 'Vina Sans', cursive;
+  font-size: 42px;
+  color: #ff8f7eff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
 }
 
 .text-box {
@@ -47,7 +65,7 @@ section {
 .text-box h2 {
   font-size: 42px;
   font-family: 'Vina Sans', cursive;
-  color: #723D46;
+  color: #723D46;;
   text-align: center;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
 }

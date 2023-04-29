@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent} from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { ImageSliderComponent } from './imageslider/imageslider.component';
 
 
 
@@ -23,6 +24,10 @@ const routes: Routes = [
   },
   { path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: '',
+    component: ImageSliderComponent
   }
 ];
 
