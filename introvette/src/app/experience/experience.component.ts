@@ -21,12 +21,12 @@ export class ExperienceComponent {
     {
       date: 'May 2018 - Aug 2022',
       title: 'Restaurant General Manager/Social Media Manager',
-      description: "@ Anntonys Caribbean Cafe in Charlotte, NC - Created, designed, and oversaw the maintenance of the ecommerce website for the restaurant's sauce. Developed social media content informed by analytics. - Crafted and updated menus, monitored inventory levels, and assigned tasks to employees. - Designed schedules taking into account staff requests and holidays. Provided daily inspiration to the team and supervised front-of-house activities."
+      description: "@ Anntonys Caribbean Cafe in Charlotte, NC - Created, designed, and oversaw the maintenance of the ecommerce website for the restaurant's sauce. - Developed social media content informed by analytics. - Crafted and updated menus, monitored inventory levels, and assigned tasks to employees. - Designed schedules taking into account staff requests and holidays. - Provided daily inspiration to the team and supervised front-of-house activities."
     },
     {
       date: 'Aug 2022 - Feb 2023',
       title: 'Hack Reactor Student',
-      description: '19 week Software Engineering Bootcamp - 19-week software engineering immersive program with over 1000+ hours of coding. Full-Stack development with JavaScript, Python, React, Django, FastAPI, Docker, Redux Toolkit PostgreSQL, HTML, and CSS. - • Relevant Coursework: Web sockets, Docker, MySQL, MongoDB, and JSON.'
+      description: '19 week Software Engineering Bootcamp - 19-week software engineering immersive program with over 1000+ hours of coding. - Full-Stack development with JavaScript, Python, React, Django, FastAPI, Docker, Redux Toolkit PostgreSQL, HTML, and CSS. - Relevant Coursework: Web sockets, MySQL, MongoDB, and JSON.'
     },
   ];
 

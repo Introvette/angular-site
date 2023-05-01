@@ -34,6 +34,7 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
+
 }
 
 .timeline-item {
@@ -83,7 +84,7 @@
 
 
 .timeline-box p {
-  max-height: 0;
+  max-height: 100%;
   width: 100%;
   overflow: hidden;
   transition: max-height 0.5s ease-out;

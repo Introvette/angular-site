@@ -5,7 +5,7 @@
           <div class="timeline-box" (click)="toggleExpand(i)" [class.expanded]="expandedIndex === i">
             <div class="timeline-content">
               <h3 class="tl-title">{{ event.title }}</h3>
-              <p [style.max-height]="expandedIndex === i ? '200px' : '0'">{{ event.description }}</p>
+              <p [style.max-height]="expandedIndex === i ? '100%' : '0'">{{ event.description }}</p>
             </div>
             <div class="timeline-date">
               {{ event.date }}
