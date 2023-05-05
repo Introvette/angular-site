@@ -26,7 +26,7 @@ export class ImageSliderComponent {
     },
     {
       url: 'assets/img/nails.JPG',
-      caption: "I'm an amateur nail artist so you'll never catch me with bare nails!"
+      caption: "Doing my nails is another outlet for my creativity and gives me new challenges :)"
     }
   ];
 

@@ -74,7 +74,7 @@
   }
 
   .skillz {
-    background-color: rgba(255, 143, 126, 0.467);
+    background-color: #723d4697;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.493);
 
@@ -105,7 +105,7 @@
 
   .card-content::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #e26e5caf;;
+    background-color: #e26e5caf;
     box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
   }
 
@@ -151,7 +151,7 @@
     border: none;
     border-radius: 10px;
     color: white;
-    background-color: #723D46;
+    background-color: #e26e5c;
     outline: none;
     padding: 0.5rem 1.8rem;
     box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
