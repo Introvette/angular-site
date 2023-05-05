@@ -20,8 +20,13 @@ export class ExperienceComponent {
     },
     {
       date: 'May 2018 - Aug 2022',
-      title: 'Restaurant General Manager/Social Media Manager',
+      title: 'Restaurant General Manager/Social Media + Website Manager',
       description: "@ Anntonys Caribbean Cafe in Charlotte, NC - Created, designed, and oversaw the maintenance of the ecommerce website for the restaurant's sauce. - Developed social media content informed by analytics. - Crafted and updated menus, monitored inventory levels, and assigned tasks to employees. - Designed schedules taking into account staff requests and holidays. - Provided daily inspiration to the team and supervised front-of-house activities."
+    },
+    {
+      date: 'Oct 2020 - Nov 2021',
+      title: 'Social Media + Website Manager',
+      description: '@ 33Headies LLC - Developed, designed, and managed the ecommerce website for merchandise and glass art, ensuring its functionality and appealing design. - Served as the primary contact for wholesale transactions with glass artists, fostering strong relationships and facilitating smooth business operations. - Utilized company analytics and sales data to create engaging and effective content, resulting in increased brand visibility and revenue.'
     },
     {
       date: 'Aug 2022 - Feb 2023',
