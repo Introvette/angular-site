@@ -22,8 +22,11 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 export class HomeComponent implements OnInit {
   textArray: string[] = [
     "Hi I'm Yvette!",
-    "I'm a full stack software developer.",
+    "I'm a full stack software developer",
     "I'm a frontend developer",
+    "I'm a social media manager",
+    "I'm a web developer",
+    "I'm a content creator",
     "I'm a Python developer"
 
   ];
