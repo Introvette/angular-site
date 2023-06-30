@@ -1,26 +1,40 @@
-  <div class="max-w-6xl mx-auto px-8">
-    <div class="flex flex-col items-center">
-      <div class="timeline-wrapper mb-8">
-        <div *ngFor="let event of timeline; let i = index" class="timeline-item relative">
-          <div class="timeline-box" (click)="toggleExpand(i)" [class.expanded]="expandedIndex === i">
-            <div class="timeline-content">
-              <h3 class="tl-title">{{ event.title }}</h3>
-              <p [style.max-height]="expandedIndex === i ? '100%' : '0'">{{ event.description }}</p>
-            </div>
-            <div class="timeline-date">
-              {{ event.date }}
-            </div>
-            <div class="clickme">
-              <h3>Read More</h3>
-            </div>
+<div class="max-w-6xl mx-auto px-8">
+  <div class="flex flex-col items-center">
+    <div class="timeline-wrapper mb-8">
+      <div
+        *ngFor="let event of timeline; let i = index"
+        class="timeline-item relative"
+      >
+        <div
+          class="timeline-box"
+          (click)="toggleExpand(i)"
+          [class.expanded]="expandedIndex === i"
+        >
+          <div class="timeline-content">
+            <h3 class="tl-title">{{ event.title }}</h3>
+            <p [style.max-height]="expandedIndex === i ? '100%' : '0'">
+              {{ event.description }}
+            </p>
           </div>
-          <div class="timeline-line"></div>
+          <div class="timeline-date">
+            {{ event.date }}
+          </div>
+          <div class="clickme">
+            <h3>Read More</h3>
+          </div>
         </div>
+        <div class="timeline-line"></div>
       </div>
-      <div class="dub-container">
-        <div class="button-container">
-          <a href="assets/img/yvetterosario.pdf" download class="download-button">Download CV</a>
-        </div>
+    </div>
+    <div class="dub-container">
+      <div class="button-container">
+        <a
+          href="assets/img/yvetterosario-2023.pdf"
+          download
+          class="download-button"
+          >Download CV</a
+        >
       </div>
     </div>
   </div>
+</div>
