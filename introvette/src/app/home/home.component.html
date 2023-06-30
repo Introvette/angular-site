@@ -1,30 +1,43 @@
 <body class="home-page">
-<section class="flex flex-col items-center">
-  <div class="typewriter-container">
-    <h2 class="typewriter text-3xl font-bold mb-2" [@typewriterAnimation]="textArray[currentTextIndex]">{{ displayText }}</h2>
-  </div>
-  <div class="wrapper">
-    <div class="pic">
-      <img class="profile-pic md:mr-4" src="assets/img/me.png">
+  <section class="flex flex-col items-center">
+    <div class="typewriter-container">
+      <h2
+        class="typewriter text-3xl font-bold mb-2"
+        [@typewriterAnimation]="textArray[currentTextIndex]"
+      >
+        {{ displayText }}
+      </h2>
     </div>
-    <div class="text-box">
-      <h2>Yvette Rosario</h2>
-      <p>Hey there, I'm Yvette! It's a pleasure to meet you! I'm originally from Pohnpei, Micronesia (please Google my beautiful home island). I've found my way to Charlotte, NC and have made it my home. I recently made a bold career move transitioning from being a restaurant general manager/social media manager to a software engineer after getting a taste of web design through blogging, and website management from past experiences.
-
-My passion lies in developing apps that not only wow users but also bring about positive change. I thrive on creating cutting-edge management solutions that push the boundaries of what's possible.
-The future is bright, and I'm ready to seize it, one line of code at a time!</p>
+    <div class="wrapper">
+      <div class="pic">
+        <img class="profile-pic md:mr-4" src="assets/img/me.png" />
+      </div>
+      <div class="text-box">
+        <h2>Yvette Rosario</h2>
+        <p>
+          Hey there! I'm Yvette, nice to meet you! Originally from the stunning
+          island of Pohnpei in Micronesia (you should totally Google it!), I've
+          made Charlotte, NC my home. Recently, I made a bold career move from
+          restaurant roles to becoming a software developer. It all started when
+          I dabbled in web design through blogging and managing websites in the
+          past. My true passion lies in developing apps that not only impress
+          users but also make a positive impact. I thrive on creating innovative
+          management solutions that push the boundaries of what's possible. The
+          future looks bright, and I'm ready to seize it, one line of code at a
+          time!
+        </p>
+      </div>
+      <div class="logo-container">
+        <a href="https://www.linkedin.com/in/vetterosario/" target="_blank"
+          ><img class="thumbnail" src="assets/img/linkedin.png"
+        /></a>
+        <a href="https://github.com/introvette" target="_blank"
+          ><img class="thumbnail" src="assets/img/github.png"
+        /></a>
+        <a href="https://gitlab.com/introvette" target="_blank"
+          ><img class="thumbnail" src="assets/img/gitlab.png"
+        /></a>
+      </div>
     </div>
-    <div class="logo-container">
-      <a href="https://www.linkedin.com/in/vetterosario/" target="_blank"><img class="thumbnail" src="assets/img/linkedin.png"></a>
-      <a href="https://github.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/github.png"></a>
-      <a href="https://gitlab.com/introvette" target="_blank"><img class="thumbnail" src="assets/img/gitlab.png"></a>
-    </div>
-  </div>
-  <div class="fun-stuff flex flex-col items-center">
-    <div class="fun-title">
-      <h2>My life in pictures...</h2>
-    </div>
-    <app-image-slider></app-image-slider>
-  </div>
-</section>
+  </section>
 </body>
